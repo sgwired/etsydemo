@@ -32,6 +32,10 @@ gem 'bootstrap-sass', '~> 3.3.3'
 
 # Paperclip gem
 gem "paperclip", "~> 4.2"
+gem "paperclip-dropbox", ">= 1.1.7"
+
+# Figaro get to protect sensative data
+gem "figaro"
 
 group :production do
 	gem 'pg'
